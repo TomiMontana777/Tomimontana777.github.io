@@ -1,0 +1,232 @@
+body {
+    background-image:url("Dragonball.gif");
+    background-size: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-decoration: underline solid white;
+}
+/*Menu*/
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background: radial-gradient(coral,#000);
+    align-items: center;
+    padding: 10px;
+
+}
+.nombre{
+    color: black;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+h2{
+    align-items: center;
+}
+.logo img{
+    height: 80px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color:transparent;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+/*Menu*/
+
+p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Goku{
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    width: 400px;
+    height: auto;
+}
+
+#nombre{
+    color: black;
+
+}
+#pjs{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    max-width: 50%;
+    height: auto;
+}
+#SSJ{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    max-width: 50%;
+    height: 400px;
+}
+
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;}
+
+section {
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background: radial-gradient(coral,black);
+}
+
+.Epigrafe{
+    text-align: center;
+}
+img {
+    width: 100%;
+    max-height: 300px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+footer {
+    background: radial-gradient(coral,#000);
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: coral;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+.container.form{
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        width: 100%;
+        max-width: 500px;
+        font-weight: bold;
+}
+
+.parrafo{
+    font-size: 20px;
+    line-height: 35px;   
+    background: radial-gradient(coral,#000);
+    padding: 20px;
+    align-items: center;
+}
+
+/* Seccion Sagas*/
+.sagas{
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background: radial-gradient(coral,black);
+    font-size: 20px;
+}
+    
+#img-saga{
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+}
+
+#img-saga2{
+    width: 500px;
+    height:500px;
+    margin-left: 400px;
+}
+
+#img-saga3{
+    width: 500px;
+    height:500px;
+    margin-left: 400px;
+}
+
+#img-saga4{
+    width: 300px;
+    height:700px;
+    margin-left: 500px;
+}
+
+#img-saga5{
+    width: 350px;
+    height:700px;
+    margin-left: 480px;
+}
+
+/* Seccion sagas*/
